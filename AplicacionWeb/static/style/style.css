@@ -1,0 +1,79 @@
+body
+{ 
+	background-image:url(/static/style/fondo1.gif);
+}
+
+.bienvenida{
+color:white;
+}
+
+#panel{
+	text-align: center;
+}
+
+#logo{
+	width: 800px;
+}
+#contenido{
+    text-align: center;
+    height: 500px;
+    width: 900px;
+    background-image: url(/static/style/fondo2.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+#tutorial{
+	width: 700px;
+}
+
+#tabla{
+    display: -webkit-inline-box;
+}
+
+div.mostrar{
+	text-align:center;
+}
+div.mostrar table{
+	margin: 0 auto;
+	text-align: left;
+}
+
+#opciones{
+	margin-top:10px;
+}
+
+.b_eliminar{
+	display:none;
+}
+
+.bienvenida{
+	text-transform:uppercase;
+	text-align: center;
+}
+
+#menu{
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#menu li{
+float:left;
+display:block;
+position:relative;
+}
+#menu li a{
+color:#000;
+text-decoration:none;
+font-family:Helvetica, Arial, sans-serif;
+font-size:14px;
+line-height:1.3em;
+padding:10px 14px 8px 16px;
+display:block;
+}
+#menu li a:hover{
+	background-color:grey;
+	border-radius: 10px;
+}
